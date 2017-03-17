@@ -1,1 +1,1 @@
-# celer_web1_start
+Exercicios, exemplos e arquivos utilizado na aula de programação web 1 na Celer faculdades, no ano de 2017
