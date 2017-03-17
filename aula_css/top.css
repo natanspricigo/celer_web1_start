@@ -1,0 +1,26 @@
+body {
+    display: block;
+}
+
+.menu {
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    background-color: #eee;
+}
+
+.sem-margem {
+    margin: 0;
+}
+
+.img-pequena {
+    height: 100%;
+}
+
+.direita {
+    float: right;
+}
+
+.esquerda {
+    float: left;
+}

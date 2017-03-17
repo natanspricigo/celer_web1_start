@@ -1,0 +1,19 @@
+body {
+    display: block;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.mouse-hover:hover {
+    background-color: #3c897d;
+    width: 130px;
+}
+
+.mouse-active:active {
+    background-color: #3c897d;
+    height: 130px;
+}
