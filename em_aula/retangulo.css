@@ -1,0 +1,28 @@
+
+.retangulo{
+    display: inline-block;
+}
+.retangulo-maior{
+    width: 250px;
+    height: 180px;
+}
+.retangulo-medio{
+    width: 90px;
+    height: 50px;
+}
+/*Mause sobre o elemento*/
+.retangulo-medio:hover{
+    background-color: #d94ec9;
+    width: 120px;
+}
+
+.retangulo-pequeno{
+    width: 45px;
+    height: 25px;
+}
+.esquerda{
+    float: left;
+}
+.direita{
+    float: right;
+}
