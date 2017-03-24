@@ -1,51 +1,18 @@
-#barras {
-    display: block;
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: #1f6d58;
 }
 
-.barra {
-    margin: 5px 0 5px 0;
-    border: dotted 2px #000;
+.menu-item {
+    padding: 15px;
     text-align: center;
+    color: #fff;
+    background-color: #1f6d58;
 }
 
-.barra-1 {
-    height: 20px;
-    display: block;
-    background-color: #5d7c9a;
-}
-
-.barra-2 {
-    height: 30px;
-    display: block;
-    background-color: #7aa9d6;
-}
-
-.barra-3 {
-    height: 40px;
-    display: block;
-    background-color: #5fa1e2;
-}
-
-#barras .nivel-1 {
-    width: 100px;
-}
-
-#barras .nivel-1:hover {
-    width: 600px;
-}
-
-#barras .nivel-2 {
-    width: 180px;
-}
-
-#barras .nivel-2:hover {
-    width: 500px;
-}
-
-#barras .nivel-3 {
-    width: 250px;
-}
-
-#barras .nivel-3:hover {
-    width: 400px;
+.menu-item:hover {
+    background-color: #3bb493;
 }

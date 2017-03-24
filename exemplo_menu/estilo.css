@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+li img.logo {
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+img.profile {
+    height: 40px;
+    margin-top: 8px;
+    padding-right: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 60px;
+}
+
+li {
+    float: left;
+    height: 60px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    padding: 5px 20px 5px 20px;
+}
+
+.menu {
+    display: block;
+}
+
+li#profile-menu {
+    float: right;
+}
+
+.logomarca {
+    background-color: #c1c1c1;
+    width: 80px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 20px
+}
+
+li.menu:hover {
+    background-color: #444;
+}

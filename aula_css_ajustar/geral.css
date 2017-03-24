@@ -23,6 +23,14 @@
     min-height: 180px;
 }
 
+.nota {
+    padding: 8px;
+    background-color: #ddd;
+    margin: 5px;
+    margin-top: 15px;
+    border: solid 1px #000;
+}
+
 body {
     margin: 0;
     padding: 0;

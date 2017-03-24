@@ -1,0 +1,47 @@
+.quadrado {
+    height: 100px;
+    width: 150px;
+    background-color: #6ab2fa;
+    border: solid 1px #0068d0;
+    text-align: center;
+}
+
+.flexivel {
+    display: flex;
+}
+
+.em-coluna {
+    flex-direction: column;
+}
+
+.em-linha {
+    flex-direction: row;
+}
+
+.linha-centro {
+    justify-content: center;
+}
+
+.linha-fim {
+    justify-content: flex-end;
+}
+
+.coluna-centro {
+    align-items: center;
+}
+
+.coluna-fim {
+    align-items: flex-end;
+}
+
+.na-direita {
+    direction: rtl;
+}
+
+.na-esquerda {
+    direction: ltr;
+}
+
+.tamanho-total {
+    width: 100% !important;
+}
