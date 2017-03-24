@@ -1,0 +1,31 @@
+.explicacao {
+    min-height: 60px;
+    padding: 10px;
+    background-color: #5d92e6;
+    color: #f0f2ff;
+    border-bottom: solid 2px #00046f;
+    border-top: solid 2px #00046f;
+}
+
+.original {
+    min-height: 180px;
+}
+
+.titulo-exercicio {
+    font-size: 17px;
+    display: block;
+    padding: 5px;
+    border-bottom: solid 1px #133264;
+    background-color: #ebebeb;
+}
+
+.resposta {
+    min-height: 180px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    background-color: #fcfcfc;
+}

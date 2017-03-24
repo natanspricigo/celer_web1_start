@@ -1,0 +1,51 @@
+#barras {
+    display: block;
+}
+
+.barra {
+    margin: 5px 0 5px 0;
+    border: dotted 2px #000;
+    text-align: center;
+}
+
+.barra-1 {
+    height: 20px;
+    display: block;
+    background-color: #5d7c9a;
+}
+
+.barra-2 {
+    height: 30px;
+    display: block;
+    background-color: #7aa9d6;
+}
+
+.barra-3 {
+    height: 40px;
+    display: block;
+    background-color: #5fa1e2;
+}
+
+#barras .nivel-1 {
+    width: 100px;
+}
+
+#barras .nivel-1:hover {
+    width: 600px;
+}
+
+#barras .nivel-2 {
+    width: 180px;
+}
+
+#barras .nivel-2:hover {
+    width: 500px;
+}
+
+#barras .nivel-3 {
+    width: 250px;
+}
+
+#barras .nivel-3:hover {
+    width: 400px;
+}
