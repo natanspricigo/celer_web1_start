@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+.content {
+    height: 100vh;
+    background-image: url('../imagens/f02.jpeg');
+}
+
+.menu {
+    color: #fff;
+    display: flex;
+    position: fixed;
+}
+
+.menu div {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.menu div.item:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+    color: #fcffe8;
+}
+
+.logo {
+    background-color: rgba(255, 255, 255, 0.48);
+    height: 50px;
+    width: 50px;
+    padding: 5px!important;
+    margin: 10px
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    margin: 0;
+    padding: 10px 50px 5px 50px;
+}
+
+#negocios {
+    height: 500px;
+    background-color: #27a256;
+    color: #fff;
+}
+
+#parceiros {
+    height: 500px;
+    background-color: #2ec8d4;
+    color: #fff;
+}
+
+#contato {
+    height: 500px;
+    background-color: #a14fb4;
+    color: #fff;
+}
