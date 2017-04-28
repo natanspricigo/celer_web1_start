@@ -1,0 +1,15 @@
+nav ul{
+    flex-direction: column; 
+}
+nav{
+    margin-left: 0;
+}
+
+nav ul {
+    padding-left:  0;
+}
+
+nav ul li:hover{
+    background-color: #d0a962;
+    border-bottom: none;
+}

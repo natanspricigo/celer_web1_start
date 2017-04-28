@@ -1,0 +1,39 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav, body{
+    margin: 0;
+}
+body{
+    background-color: #8bb9cb;
+}
+nav ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #bf8036;
+    
+}
+
+nav ul li:first-child {
+    color: black;
+}
+
+nav ul li{
+    padding: 15px;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav ul li:hover{
+    border-bottom: solid 4px #8bb9cb;
+}
+
+.content{
+    padding: 10px;
+    margin: 10px;
+    height: 100vh;
+    background-color: rgba(27, 119, 155, 0.53);
+}
