@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border: solid 1px #500707;
+}
+
+table thead tr {
+    font-weight: bold;
+    text-align: justify;
+    padding: 0;
+}
+
+table thead tr th {
+    border: solid 1px black;
+}
+
+table tbody tr td {
+    border: solid 1px black;
+}
+
+.tabela {
+    background-color: #efeeff;
+    padding: 5px;
+    padding-bottom: 30px;
+}

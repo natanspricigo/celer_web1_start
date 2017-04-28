@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+.content {
+    height: 100vh;
+    background-image: url('../imagens/f02.jpeg');
+}
+
+.menu {
+    display: flex;
+    position: fixed;
+}
+
+.menu div {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.menu div a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu div.item:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+    color: #fcffe8;
+}
+
+.logo {
+    background-color: rgba(255, 255, 255, 0.48);
+    height: 50px;
+    width: 50px;
+    padding: 5px!important;
+    margin: 10px
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    margin: 0;
+    padding: 70px 100px 5px 100px;
+}
+
+.texto {
+    text-align: justify;
+}
+
+#negocios {
+    min-height: 100vh;
+    background-color: #27a256;
+    color: #fff;
+}
+
+#parceiros {
+    height: 600px;
+    background-color: #2ec8d4;
+    color: #fff;
+}
+
+#parceiros .imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#parceiros img {
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#contato {
+    height: 300px;
+    background-color: #a14fb4;
+    color: #fff;
+}
