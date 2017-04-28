@@ -1,25 +1,30 @@
-*{
+* {
     font-family: 'Source Sans Pro', sans-serif;
 }
-nav, body{
+
+nav,
+body {
     margin: 0;
 }
-body{
+
+body {
     background-color: #8bb9cb;
 }
-nav ul{
+
+nav ul {
     margin: 0;
     display: flex;
     flex-direction: row;
     background-color: #bf8036;
-    
+    height: 50px;
 }
 
 nav ul li:first-child {
     color: black;
+    border: none;
 }
 
-nav ul li{
+nav ul li {
     padding: 15px;
     text-decoration: none;
     list-style-type: none;
@@ -27,11 +32,15 @@ nav ul li{
     color: #fff;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     border-bottom: solid 4px #8bb9cb;
 }
 
-.content{
+nav ul li:first-child:hover {
+    border: none;
+}
+
+.content {
     padding: 10px;
     margin: 10px;
     height: 100vh;
